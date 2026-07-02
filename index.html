@@ -3,107 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Shri Guru Raghavendra Online Center</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
-
-body{
-background:#f5f8fc;
-color:#222;
-}
-
-header{
-background:#0B3D91;
-color:white;
-padding:15px 30px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-flex-wrap:wrap;
-}
-
-.logo{
-font-size:28px;
-font-weight:bold;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-weight:500;
-}
-
-.hero{
-background:linear-gradient(135deg,#0B3D91,#ff7a00);
-padding:80px 20px;
-text-align:center;
-color:white;
-}
-
-.hero h1{
-font-size:48px;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:20px;
-max-width:900px;
-margin:auto;
-}
-
-.btn{
-display:inline-block;
-margin-top:30px;
-padding:15px 35px;
-background:white;
-color:#0B3D91;
-border-radius:50px;
-font-weight:bold;
-text-decoration:none;
-}
-
-.info{
-padding:50px 20px;
-max-width:1200px;
-margin:auto;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:15px;
-box-shadow:0 10px 25px rgba(0,0,0,.1);
-}
-
-.card h3{
-color:#0B3D91;
-margin-bottom:10px;
-}
-
-footer{
-background:#0B3D91;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:50px;
-}
-
-</style>
-
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -116,85 +21,64 @@ Shri Guru Raghavendra Online Center
 
 <nav>
 
-<a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">Documents</a>
-<a href="#">Contact</a>
+<a href="#home">Home</a>
+
+<a href="#services">Services</a>
+
+<a href="#about">About</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
 
 </nav>
 
 </header>
 
-<section class="hero">
+<section class="hero" id="home">
+
+<div class="hero-left">
 
 <h1>One Stop Solution for Government Services</h1>
 
 <p>
 
-PAN Card • Passport • Aadhaar • Kaveri • RTC • EC • Property Registration • Old Land Records • e-Stamp • Income Certificate • Caste Certificate
+PAN Card • Passport • Aadhaar • Kaveri • RTC • Property Registration • Income Certificate • Caste Certificate • Railway Ticket • Insurance • Banking • AEPS
 
 </p>
 
-<a class="btn" href="tel:9901043113">
-Call Now
+<div class="buttons">
+
+<a href="tel:9901043113" class="call-btn">
+📞 Call Now
 </a>
 
-</section>
-
-<section class="info">
-
-<div class="card">
-
-<h3>📞 Mobile</h3>
-
-<p>
-
-9901043113<br>
-9632615536<br>
-6362204694
-
-</p>
+<a href="https://wa.me/919901043113" class="whatsapp-btn">
+💬 WhatsApp
+</a>
 
 </div>
 
-<div class="card">
-
-<h3>📧 Email</h3>
-
-<p>
-
-sgronlinecenternoolvi@gmail.com
-
-</p>
-
 </div>
 
-<div class="card">
+<div class="hero-right">
 
-<h3>📍 Address</h3>
-
-<p>
-
-B4 Pratham Plaza<br>
-
-Kundagol Main Road<br>
-
-Noolvi Taluk Hubli<br>
-
-Dist Dharwad - 580028
-
-</p>
+<img src="swamiji.jpg" alt="Shri Guru Raghavendra Swamy">
 
 </div>
 
 </section>
 
-<footer>
+<section id="about">
 
-© 2026 Shri Guru Raghavendra Online Center
+<h2>About Our Center</h2>
 
-</footer>
+<img src="shop-front.jpg" class="shop-image">
 
-<script src="scripts.js"></script>
-</body>
-</html>
+<p>
+
+Serving Noolvi and nearby villages with trusted government and digital services for many years.
+
+</p>
+
+</section>
